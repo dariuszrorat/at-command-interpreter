@@ -37,9 +37,7 @@ This directory contains simple AT and I/O command interpreter.
     AT SA              store analog output value at PWM output to EEPROM
     AT SD              store digital output value to EEPROM
     AT SI TTTT         set analog monitor interval in ms, TTTT = 0001..FFFF
-    AT SM HH I         set HH pin mode (hex pin value) as input
-    AT SM HH O         set HH pin mode (hex pin value) as output
-    AT SM HH P         set HH pin mode (hex pin value) as input pullup
+    AT SM XX Y         set XX pin mode (hex pin number) as Y where Y is I = input, O = output, P = input pullup
     AT SR X            set analog reference voltage, D = default 5V, I = internal 1.1V, E = external using ARef pin
     AT SV XXXX         set external analog reference voltage value, auto set external reference voltage, use ARef pin
     AT SS              store settings to EEPROM memory
